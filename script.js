@@ -1,3 +1,16 @@
+window.addEventListener("load", () => {
+  
+  const loader = document.querySelector(".loader");
+  
+  loader.classList.add("loader--hidden");
+  
+  loader.addEventListener("transitionend", () => {
+    
+    document.body.removeChild(loader);
+  });
+});
+
+
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -55,10 +68,3 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
 
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
