@@ -98,13 +98,14 @@ html, body {
 
 .hr {
   color: violet;
-  
+  border-top: 1px solid violet;
 }
 
-hr {
+h3 {
   color: violet;
-  border-top: 1px solid violet;
-  
+  align-content: center;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
 }
 
 h3 {
