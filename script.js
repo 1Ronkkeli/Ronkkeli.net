@@ -1,6 +1,7 @@
 document.addEventListener('contextmenu', event => event.preventDefault());
 
 
+
 window.addEventListener("load", () => {
   
   const loader = document.querySelector(".loader");
