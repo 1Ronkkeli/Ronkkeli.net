@@ -12,8 +12,7 @@ html, body {
 .loader {
   display: flex;
   justify-content: center;
-  animation: loading 5s linear infinite;
-  transition: opacity 5.5s, visibility 5.5s;
+  
 
 
   overflow: hidden;
@@ -25,8 +24,7 @@ html, body {
 .loader {
   align-items: center;
   height: 100%;
-  animation: loading 5s linear infinite;
-  transition: opacity 5.5s, visibility 5.5s;
+  
 
   overflow: hidden;
   overflow-y: hidden;
@@ -36,16 +34,15 @@ html, body {
 
 .loader::after {
   content: "";
-  width: 50px;
-  height: 50px;
-  border: 10px solid #ff00a2;
-  border-top-color: #c800ff;
+  width: 60px;
+  height: 60px;
+  border: 10px solid #c800ff;
+  border-top-color: #0d0d0d;
   border-radius: 50%;
   overflow: hidden;
   overflow-y: hidden;
   
-  animation: loading 5s linear infinite;
-  transition: opacity 5.5s, visibility 5.5s;
+  
   
 }
 
@@ -54,16 +51,16 @@ html, body {
 @keyframes loading {
   from {
     transform: rotate(0turn);
-    animation: loading 5s linear infinite;
-    transition: opacity 5.5s, visibility 5.5s;
+    size: 20%;
+    
     overflow: hidden;
     overflow-y: hidden;
   }
   
   to {
-    transform: rotate(6turn);
-    animation: loading 5s linear infinite;
-    transition: opacity 5.5s, visibility 5.5s;
+    transform: rotate(20turn);
+    
+    size: 20%;
     overflow: hidden;
     overflow-y: hidden;
   }
@@ -75,17 +72,15 @@ html, body {
   visibility: hidden;
   
   animation: loading 5s linear infinite;
-  transition: opacity 5.5s, visibility 5.5s;
+  transition:ease-in-out 0s ,visibility 0s;
+  transition-delay: 5s;
   overflow: hidden;
   overflow-y: hidden;
   
 }
 
 
-.opClass {
-    opacity:0;
-    
-}
+
 
 #titlename {
   color: violet;
