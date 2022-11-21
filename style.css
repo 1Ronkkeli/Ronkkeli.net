@@ -34,9 +34,9 @@ html, body {
 
 .loader::after {
   content: "";
-  width: 60px;
-  height: 60px;
-  border: 10px solid #c800ff;
+  width: 75px;
+  height: 75px;
+  border: 12px solid #c800ff;
   border-top-color: #0d0d0d;
   border-radius: 50%;
   overflow: hidden;
@@ -51,18 +51,13 @@ html, body {
 @keyframes loading {
   from {
     transform: rotate(0turn);
-    size: 20%;
-    
-    overflow: hidden;
-    overflow-y: hidden;
+   
   }
   
   to {
     transform: rotate(20turn);
     
-    size: 20%;
-    overflow: hidden;
-    overflow-y: hidden;
+   
   }
 }
 
