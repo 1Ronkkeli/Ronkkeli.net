@@ -1,4 +1,4 @@
 # Ronkkeli.net
-# My portfolio like website
+# My personal website.
 
 ### Live version: https://ronkkeli.net/
