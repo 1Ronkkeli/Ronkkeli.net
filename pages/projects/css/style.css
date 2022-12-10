@@ -1,0 +1,75 @@
+#ronkkelinet {
+  color: violet;
+  size: 40%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 200%;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  margin-left: 43.8%;
+}  
+
+#aasd {
+
+  width: 20%;
+  margin-left: 39.4%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  overflow:scroll;
+  overflow:hidden;
+}
+
+#imagers {
+
+  margin-left: 37%;
+  margin-top: 5%;
+  
+}
+
+#latestprojects {
+
+  color: violet;
+  size: 70%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 350%;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  margin-left: 36.8%;
+}
+
+
+nav {
+  background-color: #00000;
+  overflow: auto;
+  margin-left: 43.9%;
+  margin-top: 3%;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: violet;
+  color: white;
+}
+  
