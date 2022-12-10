@@ -8,7 +8,28 @@
   overflow: hidden;
   display: flex;
   text-align: center;
-  margin-left: 43.2%;
+  margin-left: 15.8%;
+}  
+
+#embeddc {
+
+  margin-left: 70%;
+  margin-top: -12.5%;
+  
+}
+
+#aboutrhost {
+  color: violet;
+  size: 40%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 200%;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  margin-left: 15.2%;
+  
 }  
 
 #ronkkelihosting {
@@ -21,7 +42,7 @@
   overflow: hidden;
   display: flex;
   text-align: center;
-  margin-left: 43.8%;
+  margin-left: 15.2%;
 }  
 
 ::-webkit-scrollbar {
@@ -49,18 +70,69 @@ html, body {
   
 }
 
+#whyust {
+  color: violet;
+  size: 70%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 150%;
+  
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  margin-left: 15.2%;
+}
+
+#website {
+
+
+  margin-left: 76%;
+}
+#website {
+  display: inline-block;
+  padding: 0.3em 1em;
+  border: 2px solid #666;
+  border-radius: 3px;
+  background-color: #000000;
+  text-decoration: none;
+  color: magenta;
+}
+
+#website:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+#whyus {
+
+  color: violet;
+  size: 70%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 350%;
+  margin-top: 2%;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  margin-left: 15.2%;
+  
+}
+
 #latestprojects {
 
   color: violet;
   size: 70%;
   font-family:'Courier New', Courier, monospace;
   font-size: 350%;
+  margin-top: 13%;
   position: relative;
   white-space: nowrap;
   overflow: hidden;
   display: flex;
   text-align: center;
-  margin-left: 36.8%;
+  margin-left: 15.2%;
 }
 
 
