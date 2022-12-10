@@ -30,11 +30,17 @@
     </div>
   </div>
 
+  <nav>
+  <a href="/index.html" >Home</a>
+  <a href="/pages/projects/projects.html" class="active">Projects</a>
+  <a href="https://ronkkeli.com">Hosting</a>
+</nav>
+
   <a href="https://github.com/1Ronkkeli">
     <img id="imagers" align="center" src="https://github-readme-stats.vercel.app/api?username=1Ronkkeli&show_icons=true&line_height=27&count_private=true&title_color=FE4EDA&text_color=8F00FF&icon_color=FF00FF&bg_color=000000" />
   </a>
 
-  
+  <h1 id="latestprojects"> Latest projects </h1>
     
   
   
@@ -53,14 +59,71 @@ html, body {
 #imagers {
 
   margin-left: 38%;
+  margin-top: 5%;
   
 }
 
+#latestprojects {
+
+  color: violet;
+  size: 70%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 350%;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  margin-left: 37.8%;
+}
+
+
+nav {
+  background-color: #00000;
+  overflow: auto;
+  margin-left: 45%;
+  margin-top: -2%;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: violet;
+  color: white;
+}
   
 
 </style>
 
+<script>  
 
+  window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+  
+</script>
 
 
 </html>

@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 
-
+  <link rel="stylesheet" type="text/css" href="/other-css/navbar.css">
+  <script src="/other-css/navbar.js"></script>
   <meta name="description" content="Ronkkeli.net - Ronkkeli's personal website.">
   <meta name="keywords" content="Ronkkeli, opensource, website">
   <meta name="author" content="Ronkkeli">
@@ -20,9 +21,13 @@
      <div class="loader2" ></div>
     <h3> Hosted by ronkkeli.com </h3>
 
+    <nav>
+  <a href="/index.html" class="active">Home</a>
+  <a href="/pages/projects/projects.html" >Projects</a>
+  <a href="https://ronkkeli.com">Hosting</a>
+</nav>
   
   <div class="row">
-    <a id="projects"  href="/pages/projects.html"> Projects  </a>
     <div class="columns" id="columns">
       <h1 id="titlename"> Ronkkeli </h1>
       <h2 id="typewriters" class="typewrite" data-period="2000" data-type='[ "Sysadmin", "Programmer", "discord.gg/ronkkeli", "ronkkeli.com" ]'></h2>
@@ -35,20 +40,9 @@
 
   <style> 
 
-    #projects {
-      margin-top: 5%;
-      text-align: center;
-      margin-left: 48%;
-      color: magenta;
-      font-family:'Courier New', Courier, monospace;
-      position: relative;
-      white-space: nowrap;
-      overflow: hidden;
-      display: flex;
-      
-    }
+    
 
-    .button {
+  .button {
   font: bold 11px Arial;
   text-decoration: none;
   background-color: #EEEEEE;
