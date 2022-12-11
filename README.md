@@ -12,5 +12,5 @@
 
  </a>
 <br> </br>
-[![](https://dcbadge.vercel.app/api/server/ronkkeli)](https://discord.gg/ronkkeli)
+
 
